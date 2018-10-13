@@ -1,0 +1,135 @@
+/* write your CSS here */
+.navbar{
+        height: 56px;
+        margin-bottom: 16px;
+}
+.logo-img{
+    background-image: url('images/logo.png');
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+    margin-right:15px;
+}
+
+.header{
+    display: flex;
+}
+
+.main-heading{
+    font-size: 20px;
+    margin: 0;
+}
+
+.book-heading{
+    font-size: 16px;
+    margin: 0;
+}
+
+.border-secondary{
+    width: 100%;
+    flex-direction: row;
+    padding: 15px
+}
+
+.book-img{
+    background-image: url('images/book.png');
+    min-width: 181px;
+    height: 308px;
+    background-position: center;
+    background-size: cover;
+    margin-right:15px;
+}
+
+.card-body{
+    width: 100%;
+    padding: 10px;
+}
+
+.link{
+    font-size: 16px;
+    margin: 0;
+   
+}
+
+a.text-info{
+     font-weight: bold;
+     font-size: 14px;
+     margin-left: 5px;
+}
+
+.text-info{
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.button-div{
+    display: flex;
+}
+
+.btn.btn-primary{
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+}
+
+.input{
+    border: 1px solid #eeeeee;
+    width: 69px;
+    height: 40px;
+    text-align: center;
+}
+
+.order{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-primary{
+    width: 100%;
+    height: 50px;
+}
+
+.amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 50px;
+    font-size: 17px;
+}
+
+.input-group, .form-control{
+    height: 45px;
+    width: 167px;
+    text-align: center;
+}
+
+.input-group-text{
+    color: white;
+    background-color: #29afed;
+}
+
+@media screen and (max-width:552px){
+    .order{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:550px){
+    .card-title{
+        font-size: 18px;
+    }
+    .link{
+        font-size: 13px;
+    }
+    .text-info{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
